@@ -40,7 +40,7 @@ type negativeResponse struct {
     CustomMessage string `json:"CustomMessage" bson:"CustomMessage"`
 }
 
-// code complient from ganga
+// code complient from ganga update 2.0
 
 
 func CreateProfile(w http.ResponseWriter, r *http.Request) {
