@@ -15,6 +15,8 @@ import (
     //"golang.org/x/crypto/bcrypt"
 )
 
+// Ganga Code
+
 type emp struct {
 	emp_id    int64  `json:"emp_id"   bson:"emp_id"`
     FirstName string `json:"firstname" bson:"firstname"`
